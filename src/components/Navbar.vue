@@ -43,9 +43,11 @@ header {
       li {
         a {
           color: #333;
+          text-decoration: none;
 
           &:hover {
             font-weight: bold;
+            text-decoration: underline;
           }
         }
       }

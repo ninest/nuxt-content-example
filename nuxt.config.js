@@ -1,6 +1,20 @@
 export default {
   head: {
-    title: 'First Content'
+    titleTemplate: `%s - Content`,
+    title: 'Content',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: `How to use Nuxt Content and Components in your website` }
+    ],
+    link: [
+       // INTER UI font
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap'
+      }
+    ]
   },
   srcDir: 'src/',
   buildModules: ["@nuxt/components"],
