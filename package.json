@@ -1,0 +1,20 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nuxt/content": "^1.2.0",
+    "nuxt": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/components": "^0.1.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
+}
