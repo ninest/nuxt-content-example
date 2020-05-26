@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "nuxt"
+    "dev": "nuxt",
+    "generate": "nuxt generate"
   },
   "keywords": [],
   "author": "",

@@ -29,5 +29,18 @@ export default {
     scss: [
       'assets/styles/screen.scss',
     ]
+  },
+  generate: {
+    async routes () {
+      // next comment to make VSCode ignore the "error"
+      // @ts-ignore
+      const { $content } = require('@nuxt/content')
+      const pages = await $content().only(['path']).fetch()
+      const posts = await $content('posts').only(['path']).fetch()
+      
+      const files = [...pages,...posts,]
+
+      return files.map(file => file.path === '/index' ? '/' : file.path)
+    }
   }
 }
