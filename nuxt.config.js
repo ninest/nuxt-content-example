@@ -2,7 +2,7 @@ export default {
   head: {
     title: 'First Content'
   },
-  // srcDir: 'src/',
+  srcDir: 'src/',
   buildModules: ["@nuxt/components"],
   components: true,
   modules: [
