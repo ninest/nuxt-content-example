@@ -1,8 +1,8 @@
 ---
-title: First
-description: The introduction to my website
+title: Nuxt Content Example
+description: An example for the new @nuxt/content and @nuxt/components modules
 ---
 
-Welcome to the site! We hope you enjoy this website!
+This site is a quick guide and demo of Nuxt [content](https://github.com/nuxt/content) and [components](https://github.com/nuxt/components).
 
-Here's an example of a custom component in markdown:
+Check out this [repository](https://github.com/ninest) to see the source.

@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link class="post-container" :to="slug">
+  <nuxt-link class="post-container" :to="`posts/${slug}`">
     <h3>{{ title }}</h3>
     <div>{{ desc }}</div>
   </nuxt-link>
@@ -30,11 +30,13 @@ export default {
   color: unset;
   text-decoration: unset;
 
-  padding: 1em;
+  padding: 1.3em;
   border: 1px solid #eee;
+  border-radius: 0.2em;
 
   h3 {
-    margin-bottom: 0.2em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
   }
 }
 </style>

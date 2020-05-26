@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="title">First</div>
+    <div class="title">Content</div>
     <nav>
       <ul>
         <li>
@@ -12,6 +12,9 @@
         <li>
           <nuxt-link to="/posts">Posts</nuxt-link>
         </li>
+        <li>
+          <a href="https://github.com/ninest">GitHub</a>
+        </li>
       </ul>
     </nav>
   </header>
@@ -19,7 +22,7 @@
 
 <style lang="scss" scoped>
 header {
-  padding: 0.8em 10%;
+  padding: 0.8em var(--side-padding);
   border-bottom: 1px solid #ddd;
 
   .title {
