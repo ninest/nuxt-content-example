@@ -16,7 +16,6 @@ export default {
       }
     ]
   },
-  srcDir: 'src/',
   buildModules: ["@nuxt/components"],
   components: true,
   modules: [

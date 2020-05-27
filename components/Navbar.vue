@@ -10,6 +10,9 @@
           <nuxt-link to="/about">About</nuxt-link>
         </li>
         <li>
+          <nuxt-link to="/contact-us">Contact</nuxt-link>
+        </li>
+        <li>
           <nuxt-link to="/posts">Posts</nuxt-link>
         </li>
         <li>
@@ -39,6 +42,8 @@ header {
       padding: 0;
 
       display: flex;
+
+      overflow-x: scroll;
 
       li {
         a {
