@@ -4,6 +4,7 @@
 ![Made with Nuxt](https://img.shields.io/badge/Made%20With-Nuxt-008c78?style=flat-square)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ![GitHub](https://img.shields.io/github/license/ninest/nuxt-content-example?style=flat-square)
+[![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square)](https://www.buymeacoffee.com/ninest)
 
 Check out the live demo at [nuxt-content-example.surge.sh](https://nuxt-content-example.surge.sh/)
 
