@@ -20,6 +20,7 @@ Check out the live demo at [nuxt-content-example.surge.sh](https://nuxt-content-
 - [x] Separate page for each post
 - [x] Custom components for page layouts
 - [x] Style with normalize.css and custom styles
+- [x] SEO with meta tags
 
 ## 🛠 Build setup
 Clone or fork this repository then download it, then run this command to start the development server:
