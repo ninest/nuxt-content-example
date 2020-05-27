@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-link :to="backLink">back</nuxt-link>
+    <nuxt-link :to="backLink">&lt; back</nuxt-link>
   </div>
 </template>
 
@@ -14,3 +14,21 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+a {
+  display: inline-block;
+  color: #777;
+  text-decoration: unset;
+
+  border: 1px solid #ccc;
+  padding: 0.5em 0.9em;
+
+  border-radius: 1000em;
+
+  &:hover {
+    color: black;
+    border: 1px solid black;
+  }
+}
+</style>

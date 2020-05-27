@@ -2,9 +2,18 @@
   <div>
     <Navbar />
     <main>
+      <!-- only posts have the back button -->
       <BackButton v-if="backLink" :backLink="backLink" />
+
+      <!-- page does not have to have a title -->
       <h1 v-if="title">{{ title }}</h1>
-      <div v-if="date" class="date">{{ date }}</div>
+
+      <!-- not all pages have dates, only posts do -->
+      <div v-if="date" class="date">
+        Last updated:
+        <b>{{ dateDisplay }}</b>
+      </div>
+
       <slot></slot>
     </main>
   </div>
@@ -24,6 +33,13 @@ export default {
     date: {
       type: String,
       required: false,
+    }
+  },
+  computed: {
+    dateDisplay() {
+      // convert the long date to an easy to read date
+      const date = new Date(this.date);
+      return `${date.getFullYear()}-${date.getMonth()}-${date.getDate()}`
     }
   },
 }
