@@ -8,6 +8,10 @@
 
 Check out the live demo at [nuxt-content-example.surge.sh](https://nuxt-content-example.surge.sh/)
 
+**Relevant documentation:**
+- [Nuxt components](https://github.com/nuxt/components)
+- [Nuxt content](http://content.nuxtjs.org/)
+
 ## 🚀 Features
 - [x] Using Nuxt content
 - [x] Using Nuxt components

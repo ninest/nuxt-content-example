@@ -1,4 +1,11 @@
 <template>
+  <!-- 
+    Note: This is not a typical Nuxt template
+    It is just a custom vue component with a slot (https://vuejs.org/v2/guide/components-slots.html)
+    I prefer components with slots over Nuxt's layouts becaise custom components are more versatile"
+      - they support passing of props
+      - they can be chained (you can make nested layouts)
+  -->
   <div>
     <Navbar />
     <main>
