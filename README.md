@@ -111,4 +111,4 @@ If you liked this project, consider supporting by
 - ☕️ Buying me [coffee](https://www.buymeacoffee.com/ninest)
 
 ## 📜 License
-MIT
+MIT$$
