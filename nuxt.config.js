@@ -8,7 +8,7 @@ export default {
       { hid: 'description', name: 'description', content: `How to use Nuxt Content and Components in your website` }
     ],
     link: [
-       // INTER UI font
+       // Demo for adding a google font (INTER UI)
       {
         rel: 'stylesheet',
         href:

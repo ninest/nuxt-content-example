@@ -2,7 +2,7 @@
   <Default 
     :title="doc.title" 
     backLink="/posts"
-    :date="doc.date.toString()"
+    :date="doc.updatedAt.toString()"
   >
     <nuxt-content :document="doc" />
   </Default>

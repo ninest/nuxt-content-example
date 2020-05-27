@@ -22,7 +22,7 @@ a {
   text-decoration: unset;
 
   border: 1px solid #ccc;
-  padding: 0.5em 0.9em;
+  padding: 0.5em 1.2em;
 
   border-radius: 1000em;
 

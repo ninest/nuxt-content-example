@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="title">Content</div>
+    <div class="title">Nuxt Content</div>
     <nav>
       <ul>
         <li>

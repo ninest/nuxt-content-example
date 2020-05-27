@@ -32,7 +32,7 @@ export default {
 
   padding: 1.3em;
   border: 1px solid #eee;
-  border-radius: 0.2em;
+  border-radius: 0.4em;
 
   h3 {
     margin-top: 0;

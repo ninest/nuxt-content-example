@@ -5,6 +5,7 @@
     I prefer components with slots over Nuxt's layouts becaise custom components are more versatile"
       - they support passing of props
       - they can be chained (you can make nested layouts)
+    Check out his answer: https://stackoverflow.com/a/62035321/8677167
   -->
   <div>
     <Navbar />
