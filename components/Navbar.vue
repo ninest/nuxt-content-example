@@ -16,7 +16,7 @@
           <nuxt-link to="/posts">Posts</nuxt-link>
         </li>
         <li>
-          <a href="https://github.com/ninest/nuxt-content-example">GitHub</a>
+          <a href="https://github.com/ninest/nuxt-content-example" target="_blank">GitHub</a>
         </li>
       </ul>
     </nav>

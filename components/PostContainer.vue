@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link class="post-container" :to="`posts/${slug}`">
+  <nuxt-link class="post-container" :to="`/posts/${slug}`">
     <h3>{{ title }}</h3>
     <div>{{ desc }}</div>
   </nuxt-link>
