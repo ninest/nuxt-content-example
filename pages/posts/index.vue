@@ -27,6 +27,7 @@ export default {
   },
   async fetch() {
     this.posts = await this.$content('posts').fetch()
+    console.log(this.posts)
   }
 }
 </script>

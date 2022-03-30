@@ -1,6 +1,6 @@
 ---
-title: First post
-description: Our first post, explaining why we are great
+title: Third post
+description: xyz
 ---
 
 This is my first post. Isn't it so exciting? There are so many possibilities, to be explored! Yes, this is great.
